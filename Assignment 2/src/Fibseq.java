@@ -1,5 +1,18 @@
 import java.util.*;
+
+/**
+ * This branch is to solve the javadoc missing code.
+ * <p>
+ *This code designed to calculate the terms of the Fibonacci sequence to the user input.
+ *</p>
+ *@ author Johnny Bienaime
+ */
 public class Fibseq {
+    /**
+     *
+     * @param num the number of the term the user is searching for
+     * @return the value assigned to the term position
+     */
     public static int fib(int num){
         if (num <= 1)
             return num;
